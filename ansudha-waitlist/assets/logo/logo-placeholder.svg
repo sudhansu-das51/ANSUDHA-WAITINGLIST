@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none" role="img" aria-label="ANSUDHA Logo">
+  <!-- Decorative Heritage Monogram -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Temple Spire / Arch Silhouette -->
+    <path d="M30 4 L56 30 L48 54 L12 54 L4 30 Z" stroke="#B66A0A" stroke-width="1.5" fill="none" opacity="0.85"/>
+    <path d="M30 9 L51 30 L45 50 L15 50 L9 30 Z" stroke="#C68646" stroke-width="0.75" fill="none" opacity="0.6"/>
+    
+    <!-- Central Lotus / Flame Craft Geometry -->
+    <path d="M30 14 C30 14 38 26 38 36 C38 43 34 47 30 47 C26 47 22 43 22 36 C22 26 30 14 30 14 Z" fill="#B66A0A" opacity="0.9"/>
+    <path d="M30 20 C30 20 23 29 23 37 C23 42 26 45 30 45" stroke="#F5F2B3" stroke-width="1" stroke-linecap="round" fill="none"/>
+    <circle cx="30" cy="27" r="2" fill="#F5F2B3"/>
+    
+    <!-- Odisha Filigree Accent Dots -->
+    <circle cx="30" cy="5" r="1.5" fill="#5D1317"/>
+    <circle cx="4" cy="30" r="1.5" fill="#B66A0A"/>
+    <circle cx="56" cy="30" r="1.5" fill="#B66A0A"/>
+    <circle cx="12" cy="54" r="1.5" fill="#C68646"/>
+    <circle cx="48" cy="54" r="1.5" fill="#C68646"/>
+  </g>
+
+  <!-- Typography: ANSUDHA -->
+  <text x="82" y="48" font-family="'Cinzel', 'Playfair Display', 'Georgia', serif" font-size="32" font-weight="600" letter-spacing="4" fill="#5D1317">ANSUDHA</text>
+</svg>

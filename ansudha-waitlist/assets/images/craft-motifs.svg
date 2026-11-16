@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <!-- Radial Glows -->
+    <radialGradient id="craftGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#B66A0A" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#5D1317" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#5D1317" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Linear Metallic Accent -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2B3"/>
+      <stop offset="45%" stop-color="#B66A0A"/>
+      <stop offset="80%" stop-color="#C68646"/>
+      <stop offset="100%" stop-color="#F5F2B3"/>
+    </linearGradient>
+
+    <!-- Sambalpuri Ikat Diamond Pattern -->
+    <pattern id="ikatPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L40 20 L20 40 L0 20 Z" fill="none" stroke="#C68646" stroke-width="0.5" stroke-opacity="0.18"/>
+      <path d="M20 6 L34 20 L20 34 L6 20 Z" fill="none" stroke="#B66A0A" stroke-width="0.4" stroke-opacity="0.12"/>
+      <circle cx="20" cy="20" r="1.5" fill="#F5F2B3" fill-opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="400" cy="300" r="260" fill="url(#craftGlow)"/>
+
+  <!-- Background Ikat Geometric Texture -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#ikatPattern)" opacity="0.6"/>
+
+  <!-- Central Concentric Heritage Mandala (Inspired by Konark Wheel & Pattachitra Circular Mandalas) -->
+  <g transform="translate(400, 300)" stroke="url(#goldGradient)" stroke-width="1.2" fill="none">
+    <!-- Outer Decorative Orbit -->
+    <circle r="190" stroke="#C68646" stroke-width="0.8" stroke-dasharray="4 6" opacity="0.45"/>
+    <circle r="175" stroke="#B66A0A" stroke-width="1" opacity="0.75"/>
+    <circle r="162" stroke="#F5F2B3" stroke-width="0.5" stroke-dasharray="2 4" opacity="0.5"/>
+
+    <!-- 16 Petals/Rays of Craft Heritage -->
+    <g id="rays" opacity="0.85">
+      <path d="M0 -175 L8 -135 L0 -145 L-8 -135 Z" fill="#B66A0A" stroke="#F5F2B3" stroke-width="0.5"/>
+      <path d="M0 175 L8 135 L0 145 L-8 135 Z" fill="#B66A0A" stroke="#F5F2B3" stroke-width="0.5"/>
+      <path d="M-175 0 L-135 8 L-145 0 L-135 -8 Z" fill="#B66A0A" stroke="#F5F2B3" stroke-width="0.5"/>
+      <path d="M175 0 L135 8 L145 0 L135 -8 Z" fill="#B66A0A" stroke="#F5F2B3" stroke-width="0.5"/>
+      
+      <!-- 45 Deg -->
+      <g transform="rotate(45)">
+        <path d="M0 -175 L8 -135 L0 -145 L-8 -135 Z" fill="#C68646" stroke="#F5F2B3" stroke-width="0.5"/>
+        <path d="M0 175 L8 135 L0 145 L-8 135 Z" fill="#C68646" stroke="#F5F2B3" stroke-width="0.5"/>
+        <path d="M-175 0 L-135 8 L-145 0 L-135 -8 Z" fill="#C68646" stroke="#F5F2B3" stroke-width="0.5"/>
+        <path d="M175 0 L135 8 L145 0 L135 -8 Z" fill="#C68646" stroke="#F5F2B3" stroke-width="0.5"/>
+      </g>
+
+      <!-- 22.5 Deg -->
+      <g transform="rotate(22.5)" opacity="0.6">
+        <circle cx="0" cy="-168" r="2.5" fill="#F5F2B3"/>
+        <circle cx="0" cy="168" r="2.5" fill="#F5F2B3"/>
+        <circle cx="-168" cy="0" r="2.5" fill="#F5F2B3"/>
+        <circle cx="168" cy="0" r="2.5" fill="#F5F2B3"/>
+      </g>
+      <g transform="rotate(67.5)" opacity="0.6">
+        <circle cx="0" cy="-168" r="2.5" fill="#F5F2B3"/>
+        <circle cx="0" cy="168" r="2.5" fill="#F5F2B3"/>
+        <circle cx="-168" cy="0" r="2.5" fill="#F5F2B3"/>
+        <circle cx="168" cy="0" r="2.5" fill="#F5F2B3"/>
+      </g>
+    </g>
+
+    <!-- Mid Ring with Filigree Rosette -->
+    <circle r="115" stroke="#B66A0A" stroke-width="1.5" opacity="0.9"/>
+    <circle r="95" stroke="#C68646" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Inner 8-point Lotus Craft Flower -->
+    <g id="lotusCenter">
+      <path d="M0 -95 C25 -65 25 -35 0 0 C-25 -35 -25 -65 0 -95 Z" fill="#5D1317" stroke="#B66A0A" stroke-width="1"/>
+      <path d="M0 95 C25 65 25 35 0 0 C-25 35 -25 65 0 95 Z" fill="#5D1317" stroke="#B66A0A" stroke-width="1"/>
+      <path d="M-95 0 C-65 25 -35 25 0 0 C-35 -25 -65 -25 -95 0 Z" fill="#5D1317" stroke="#B66A0A" stroke-width="1"/>
+      <path d="M95 0 C65 25 35 25 0 0 C35 -25 65 -25 95 0 Z" fill="#5D1317" stroke="#B66A0A" stroke-width="1"/>
+
+      <g transform="rotate(45)">
+        <path d="M0 -85 C20 -55 20 -30 0 0 C-20 -30 -20 -55 0 -85 Z" fill="#5D1317" stroke="#C68646" stroke-width="0.8"/>
+        <path d="M0 85 C20 55 20 30 0 0 C-20 30 -20 55 0 85 Z" fill="#5D1317" stroke="#C68646" stroke-width="0.8"/>
+        <path d="M-85 0 C-55 20 -30 20 0 0 C-30 -20 -55 -20 -85 0 Z" fill="#5D1317" stroke="#C68646" stroke-width="0.8"/>
+        <path d="M85 0 C55 20 30 20 0 0 C30 -20 55 -20 85 0 Z" fill="#5D1317" stroke="#C68646" stroke-width="0.8"/>
+      </g>
+    </g>
+
+    <!-- Core Golden Bindu -->
+    <circle r="24" fill="#B66A0A" stroke="#F5F2B3" stroke-width="1.5"/>
+    <circle r="14" fill="#5D1317" stroke="#C68646" stroke-width="1"/>
+    <circle r="5" fill="#F5F2B3"/>
+  </g>
+</svg>
